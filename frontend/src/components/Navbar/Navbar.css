@@ -1,0 +1,8 @@
+nav{
+    position: fixed;
+    width: 1024px;
+    top: 24px;
+    border-radius: 0 0 10px 10px;
+    background: rgba(0,0,0,0.5);
+    
+}
