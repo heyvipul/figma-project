@@ -3,6 +3,33 @@ nav{
     width: 1024px;
     top: 24px;
     border-radius: 0 0 10px 10px;
-    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(25px);
+    /* z-index for always top of the other elements */
+    z-index: 300;
+}
+nav ul{
+    display: flex;
+    /* remove bullets from li tag */
+    list-style: none;
+    padding: 0;
+    gap: 50px;
+    padding: 15px 30px;
     
+}
+nav ul li a,
+a.logo{
+    color: #fff;
+    font-weight: 800;
+    font-size: 16px;   
+}
+a.logo{
+    margin-left: 30px;
+}
+
+a.logo .red{
+    color: var(--red-color);
 }
